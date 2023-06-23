@@ -1,0 +1,276 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  position: relative;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background: #45577D;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+}
+
+.intro {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #100;
+  height: 100vh;
+}
+
+.icon-img-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: transparent;
+  height: 90vh;
+  width: auto;
+}
+
+.blue-dot{
+  text-align: center;
+  position: absolute;
+  top: 45.55%;
+  left: 97.7%;
+  transform: translate(-50%, -50%);
+  width: 3.7vh;
+  height: auto;
+}
+
+h1{
+  text-align: center;
+  font-family: Aboreto;
+  color: #FFCD00;
+  font-size: calc(50px + 10vw);
+  position: absolute;
+  top: 22%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 100%;
+  text-shadow: 4px 4px blue;
+
+}
+
+h2{
+  text-align: center;
+  font-family: 'Aboreto', cursive;
+  color: #FFCD00;
+  font-size: calc(15px + 1.1vw);
+  position: absolute;
+  top: 23%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 100%;
+  
+}
+
+h3{
+  text-align: center;
+  font-family: 'Amiri Quran', serif;
+  color: white;
+  font-size: calc(15px + 1.1vw);
+  position: absolute;
+  top: 51%;
+  left: 82%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 100%;
+
+}
+
+.introduce-me {
+  text-align: justify;
+  font-family: 'PT Serif', serif;
+  color: white;
+  font-size: calc(10px + 1vw);
+  z-index: 1;
+  line-height: 2.5;
+}
+
+.intro-text {
+  width: 40%;
+  position: absolute;
+  top: 74%;
+  left: 66%;
+  transform: translate(-50%, -50%);
+}
+
+.scroll-button{
+  display: inline-block;
+  font-family: 'Monsterrat', sans-serif;
+  font-size: calc(5px + 1.2vw);
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: white;
+  background: transparent;
+  border-bottom: 2px solid #689af8;
+  border-top: 2px solid transparent;
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+  cursor: pointer;
+
+}
+
+.button-group {
+  text-align: right;
+}
+
+.quote-screen{
+  scroll-margin-top: 10vh;
+  display: flex;
+  background-color: #152238;
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100vh;
+}
+
+.icon-img-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: transparent;
+  height: 85vh;
+  width: auto;
+}
+
+.ted-quote{
+  width: 50%;
+  position: absolute;
+  top: 12%;
+  left: 5%;
+  transform: translate(5%, 10%);
+}
+
+.ted-quote-text{
+  text-align: justify;
+  font-family: 'PT Serif', serif;
+  color: white;
+  font-size: calc(12px + 1vw);
+  z-index: 1;
+  line-height: 2.5;
+  word-spacing: 2;
+}
+
+.highlight {
+  color: #FFCD00;
+}
+ 
+ .ted-img{
+  display: flex;
+  align-self: bottom;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: transparent;
+  height: 40vh;
+  width: auto;
+
+ }
+
+ .sports{
+   display: flex;
+  background-color: #747F9A;
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100vh; 
+ }
+
+ .rowing-img{
+   position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: transparent;
+  height: 90vh;
+  width: auto;
+ }
+
+ .rugby-img{
+   position: absolute;
+  bottom: 0;
+  right: 0;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: transparent;
+  height: 85vh;
+  width: auto;
+ }
+
+ .swiss-rowing-img{
+   position: absolute;
+  top: 25%;
+  left: 25%;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: transparent;
+  height: 15vh;
+  width: auto;
+ }
+
+ .swiss-rugby-img{
+   position: absolute;
+  top: 60%;
+  left: 59%;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: transparent;
+  height: 15vh;
+  width: auto;
+ }
+
+.socials{
+ display: flex;
+  background-color: #A9B4D1;
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100vh;
+}
+
+ .couch-img{
+   position: absolute;
+  bottom: 0;
+  left: 30%;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: transparent;
+  height: 50vh;
+  width: auto;
+ }
+
+ .snapchat-img{
+   position: absolute;
+  bottom: 50%;
+  left: 30%;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: transparent;
+  height: 50vh;
+  width: auto;
+ }
